@@ -18,8 +18,10 @@ hugo new posts/<post-name>.md
 hugo
 ```
 
-## Before publishing to IPFS
+## Publishing to IPFS
 
 ```bash
-cp _redirects.template public/_redirects
+./publish.sh
 ```
+
+
