@@ -1,4 +1,5 @@
 #! /bin/sh
+rm -rf public/
 hugo
 cp  _redirects.template public/_redirects
 cp  google96eac7d5349dafe6.html public/
